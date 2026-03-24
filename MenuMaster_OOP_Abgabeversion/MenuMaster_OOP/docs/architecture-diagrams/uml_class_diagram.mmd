@@ -1,0 +1,66 @@
+classDiagram
+    class Ingredient {
+        +str name
+        +float amount
+        +str unit
+        +validate()
+    }
+
+    class Recipe {
+        +int? id
+        +str name
+        +list~Ingredient~ ingredients
+        +validate()
+    }
+
+    class MealPlan {
+        +int? id
+        +str title
+        +dict assignments
+        +str created_at
+        +validate(valid_recipe_ids)
+    }
+
+    class ShoppingList {
+        +dict items
+        +add_item(name, unit, amount)
+        +as_rows()
+    }
+
+    class RecipeService {
+        +get_all_recipes()
+        +get_recipe_choices()
+        +import_from_text_file(filepath)
+    }
+
+    class MealPlanService {
+        +create_random_assignments()
+        +save_meal_plan(title, assignments)
+        +get_latest_meal_plan()
+        +get_all_meal_plans()
+    }
+
+    class ShoppingService {
+        +build_for_latest_meal_plan()
+        +build_for_meal_plan_id(meal_plan_id)
+    }
+
+    class RecipeORM
+    class IngredientORM
+    class MealPlanORM
+    class MealPlanEntryORM
+
+    Recipe "1" *-- "1..*" Ingredient
+    ShoppingList ..> Ingredient
+    MealPlan ..> Recipe
+
+    RecipeService ..> Recipe
+    MealPlanService ..> MealPlan
+    ShoppingService ..> ShoppingList
+
+    RecipeService ..> RecipeORM
+    RecipeService ..> IngredientORM
+    MealPlanService ..> MealPlanORM
+    MealPlanService ..> MealPlanEntryORM
+    ShoppingService ..> MealPlanORM
+    ShoppingService ..> RecipeORM

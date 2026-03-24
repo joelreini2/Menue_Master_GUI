@@ -1,0 +1,42 @@
+Spaghetti Bolognese;Spaghetti;100;g
+Spaghetti Bolognese;Hackfleisch;100;g
+Spaghetti Bolognese;Tomatensauce;100;ml
+Spaghetti Bolognese;Zwiebel;0.5;Stück
+
+Gemüsepfanne;Paprika;0.5;Stück
+Gemüsepfanne;Zucchini;0.5;Stück
+Gemüsepfanne;Karotte;1;Stück
+Gemüsepfanne;Reis;80;g
+
+Omelette;Ei;2;Stück
+Omelette;Milch;50;ml
+Omelette;Käse;30;g
+
+Salat;Blattsalat;50;g
+Salat;Tomate;1;Stück
+Salat;Gurke;0.25;Stück
+
+Bratwurst mit Kartoffeln;Bratwurst;2;Stück
+Bratwurst mit Kartoffeln;Kartoffeln;200;g
+Bratwurst mit Kartoffeln;Senf;20;g
+
+Hähnchen mit Reis;Hähnchenbrust;150;g
+Hähnchen mit Reis;Reis;80;g
+Hähnchen mit Reis;Brokkoli;100;g
+
+Pizza Margherita;Pizzateig;1;Stück
+Pizza Margherita;Tomatensauce;80;ml
+Pizza Margherita;Mozzarella;100;g
+
+Nudelsuppe;Nudeln;60;g
+Nudelsuppe;Karotte;0.5;Stück
+Nudelsuppe;Sellerie;30;g
+Nudelsuppe;Gemüsebrühe;500;ml
+
+Fisch mit Gemüse;Fischfilet;150;g
+Fisch mit Gemüse;Zucchini;0.5;Stück
+Fisch mit Gemüse;Paprika;0.5;Stück
+
+Pfannkuchen;Mehl;100;g
+Pfannkuchen;Milch;200;ml
+Pfannkuchen;Ei;1;Stück

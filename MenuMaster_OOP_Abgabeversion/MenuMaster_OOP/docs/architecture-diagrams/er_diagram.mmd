@@ -1,0 +1,30 @@
+erDiagram
+    RECIPES ||--o{ INGREDIENTS : has
+    MEAL_PLANS ||--o{ MEAL_PLAN_ENTRIES : contains
+    RECIPES ||--o{ MEAL_PLAN_ENTRIES : references
+
+    RECIPES {
+        int id PK
+        string name
+    }
+
+    INGREDIENTS {
+        int id PK
+        int recipe_id FK
+        string name
+        float amount
+        string unit
+    }
+
+    MEAL_PLANS {
+        int id PK
+        string title
+        string created_at
+    }
+
+    MEAL_PLAN_ENTRIES {
+        int id PK
+        int meal_plan_id FK
+        string weekday
+        int recipe_id FK
+    }
