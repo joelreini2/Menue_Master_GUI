@@ -1,2 +1,0 @@
-from menue_master.data_access.datenbank import datenbank_erstellen
-from menue_master.data_access.datenbank_zugriff import DatenbankZugriff
