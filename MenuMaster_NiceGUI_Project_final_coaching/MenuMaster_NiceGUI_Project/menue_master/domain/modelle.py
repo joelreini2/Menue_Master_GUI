@@ -6,7 +6,7 @@ Sie sind normale Python-Klassen und unabhängig von NiceGUI und der Datenbank.
 
 from dataclasses import dataclass, field
 
-wochentage = [
+wchentage = [
     "Montag",
     "Dienstag",
     "Mittwoch",
