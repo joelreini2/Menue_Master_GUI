@@ -483,9 +483,3 @@ Das neue Projekt baut auf dem alten MenuMaster-Konsolenprojekt auf und erweitert
 | keine automatisierten Tests | pytest-Tests für Domain, Services, Datenbank und Controller |
 
 ---
-
-## 📝 License
-
-Dieses Projekt ist nur für Ausbildungszwecke im Modul Advanced Programming / Objektorientierte Programmierung gedacht.
-
-[MIT License](LICENSE)
