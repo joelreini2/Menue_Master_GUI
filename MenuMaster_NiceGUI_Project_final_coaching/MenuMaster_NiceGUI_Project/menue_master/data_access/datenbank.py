@@ -8,7 +8,6 @@ from pathlib import Path
 from sqlalchemy import create_engine
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import sessionmaker
-from   
 from menue_master.data_access.orm_modelle import Base
 
 DATENBANK_DATEI = Path(__file__).resolve().parents[2] / "menue_master.db"
