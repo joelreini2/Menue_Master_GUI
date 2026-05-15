@@ -61,7 +61,7 @@ class DatenbankZugriff:
         if zutat is None:
             zutat = ZutatORM(name=name.strip(), einheit=einheit.strip())
             session.add(zutat)
-
+        return zutat
 
     def _rezept_aus_orm(self, rezept_orm: RezeptORM) -> Rezept:
         zutaten = [
