@@ -353,18 +353,12 @@ docs/
 - Python 3.13 oder die im Kurs verwendete Version wird empfohlen.
 - Virtuelle Umgebung erstellen und aktivieren:
 
-**macOS/Linux:**
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
 **Windows:**
 
 ```bash
-python -m venv .venv
-.venv\Scripts\Activate
+cd /workspaces/Menue_Master_GUI/MenuMaster_NiceGUI_Project_final_coaching/MenuMaster_NiceGUI_Project
+
+python3 -m menue_master
 ```
 
 - Abhängigkeiten installieren:
