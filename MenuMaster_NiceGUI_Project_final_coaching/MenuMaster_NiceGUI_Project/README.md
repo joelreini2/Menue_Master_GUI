@@ -169,7 +169,7 @@ Eigene UI-Screenshots können für die finale Abgabe in `docs/ui-images/` abgele
 
 ## 🏛️ Architecture
 
-[Schichtenübersicht als Mermaid-Diagramm](docs/architecture-diagrams/klassendiagramm.png)
+![Schichtenübersicht als Mermaid-Diagramm](docs/architecture-diagrams/klassendiagramm.png)
 
 ### Layers
 
