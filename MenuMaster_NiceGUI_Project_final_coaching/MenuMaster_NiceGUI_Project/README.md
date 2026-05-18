@@ -169,7 +169,7 @@ Eigene UI-Screenshots können für die finale Abgabe in `docs/ui-images/` abgele
 
 ## 🏛️ Architecture
 
-[Schichtenübersicht als Mermaid-Diagramm](docs/architecture-diagrams/schichten.md)
+[Schichtenübersicht als Mermaid-Diagramm](docs/architecture-diagrams/klassendiagramm.png)
 
 ### Layers
 
@@ -202,8 +202,6 @@ Begründung:
 ---
 
 ## 🗄️ Database and ORM
-
-![ER-Modell](docs/architecture-diagrams/er_modell_aktuell.png)
 
 Die Anwendung verwendet **SQLAlchemy ORM**, um Domain-Daten auf eine **SQLite-Datenbank** abzubilden. Direkte SQL-Befehle werden im Anwendungscode vermieden.
 
