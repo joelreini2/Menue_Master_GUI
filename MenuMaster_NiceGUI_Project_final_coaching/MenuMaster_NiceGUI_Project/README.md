@@ -54,6 +54,7 @@ Die Anwendung erlaubt Benutzern:
   - Jedes Rezept ist mit seinem Namen sichtbar.
   - Die Liste ist über die Benutzeroberfläche erreichbar.
 
+![ER-Modell](docs/architecture-diagrams/user_stories_screenshots/1.png)
 ---
 
 ### 2. Zutaten eines Rezepts anzeigen
@@ -67,6 +68,7 @@ Die Anwendung erlaubt Benutzern:
   - Jede Zutat enthält Name, Menge und Einheit.
   - Leere oder ungültige Zutaten werden nicht gespeichert.
 
+![ER-Modell](docs/architecture-diagrams/user_stories_screenshots/2.png)
 ---
 
 ### 3. Wochenplan erstellen
@@ -80,6 +82,7 @@ Die Anwendung erlaubt Benutzern:
   - Für jeden Wochentag kann ein Rezept ausgewählt werden.
   - Der Titel des Wochenplans darf nicht leer sein.
 
+![ER-Modell](docs/architecture-diagrams/user_stories_screenshots/3.png)
 ---
 
 ### 4. Wochenplan automatisch befüllen
@@ -93,6 +96,7 @@ Die Anwendung erlaubt Benutzern:
   - Es werden nur vorhandene Rezepte verwendet.
   - Der automatisch erzeugte Plan kann anschliessend noch angepasst werden.
 
+![ER-Modell](docs/architecture-diagrams/user_stories_screenshots/4.png)
 ---
 
 ### 5. Wochenplan speichern
@@ -106,6 +110,7 @@ Die Anwendung erlaubt Benutzern:
   - Ungültige Pläne werden vor dem Speichern abgefangen.
   - Gespeicherte Pläne können später wieder geladen werden.
 
+![ER-Modell](docs/architecture-diagrams/user_stories_screenshots/5.png)
 ---
 
 ### 6. Einkaufsliste generieren
@@ -119,6 +124,7 @@ Die Anwendung erlaubt Benutzern:
   - Gleiche Zutaten werden zusammengeführt, wenn Name und Einheit übereinstimmen.
   - Die Einkaufsliste wird in der Benutzeroberfläche angezeigt.
 
+![ER-Modell](docs/architecture-diagrams/user_stories_screenshots/6.png)
 ---
 
 ### 7. Vergangene Wochenpläne anzeigen
@@ -132,6 +138,7 @@ Die Anwendung erlaubt Benutzern:
   - Jeder Wochenplan ist mit Titel und Einträgen sichtbar.
   - Die Daten werden aus der Datenbank geladen.
 
+![ER-Modell](docs/architecture-diagrams/user_stories_screenshots/7.png)
 ---
 
 ## 🧩 Use Cases
